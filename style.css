@@ -1,0 +1,25 @@
+body{
+    height: 100vh;
+    display: flex;
+    color: white;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    font-size: 30px;
+}
+span{
+    font-size: 90px;
+    display: inline-block;
+    animation: rotateY 3s linear infinite;
+    transform: rotateY(180deg);
+}
+@keyframes rotateY{
+    0%{
+        transform: rotateY(0deg);
+    }
+    100%{
+        transform: rorateY(360deg);
+    }
+}
